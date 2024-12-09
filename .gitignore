@@ -1,0 +1,38 @@
+# Ignore node_modules at the project root level
+/node_modules
+
+# Ignore server/client node_modules
+/server/node_modules
+/client/node_modules
+
+# Ignore environment variables file
+/.env
+
+# Ignore log files
+*.log
+
+# Ignore dependency management files that might be regenerated
+/package-lock.json
+/package.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Ignore build files
+/dist/
+/build/
+
+# Ignore test coverage reports
+/coverage/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore editor-specific files (e.g., Sublime, Emacs)
+*.sublime-workspace
+*.sublime-project

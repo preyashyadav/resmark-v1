@@ -1,0 +1,141 @@
+body {
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+.attendance-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.attendance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  padding: 30px;
+  background-color: #222831;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.2),
+    0px 0px 25px rgba(0, 0, 255, 0.15);
+}
+
+.attendance-views {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  color: #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 300px;
+  margin: 20px;
+  border: 2px solid #1a1a2e;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.class-select {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.class-select label {
+  font-size: 16px;
+  color: #00adb5;
+  margin-bottom: 5px;
+}
+
+.select-class {
+  padding: 12px;
+  font-size: 16px;
+  color: #e6e6e6;
+  background-color: #393e46;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.select-class:focus {
+  outline: none;
+  border-color: #00adb5;
+}
+
+.mark-attendance {
+  background-color: #00adb5;
+  color: #222831;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.mark-attendance:hover {
+  background-color: #ff2e63;
+}
+
+.attendance-status {
+  font-size: 16px;
+  color: #e6e6e6;
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.attendance-status.success {
+  background-color: #28a745; /* Green */
+}
+
+.attendance-status.error {
+  background-color: #e74c3c; /* Red */
+}
+
+.map-container {
+  width: 50%;
+  height: 300px;
+}
+
+@media (max-width: 600px) {
+  .attendance-container {
+    padding: 20px;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .select-class,
+  .mark-attendance {
+    font-size: 14px;
+  }
+}

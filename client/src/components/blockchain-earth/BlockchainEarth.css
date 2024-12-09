@@ -1,0 +1,8 @@
+.blockchain-canvas {
+  position: absolute;
+  top: 50%;
+  left: -14.5%;
+  width: 200px;
+  height: 200px;
+  pointer-events: none; /* Optional: Prevent interactions with the canvas */
+}

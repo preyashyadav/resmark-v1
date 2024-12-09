@@ -1,0 +1,129 @@
+.dashboard-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.2),
+    0px 0px 25px rgba(0, 0, 255, 0.15);
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #00adb5;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 100%;
+}
+
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00adb5;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate; /* Use separate borders for cells */
+  border-spacing: 0; /* Ensure no extra space between cells */
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(45deg, #00adb5, #2f3c45);
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2),
+    0px 0px 15px rgba(0, 0, 255, 0.1);
+}
+
+table th,
+table td {
+  padding: 20px 25px; /* Increased padding for better readability */
+  text-align: left;
+  color: #e6e6e6;
+  font-size: 16px;
+  border: 1px solid #00adb5; /* Add border to each cell */
+}
+
+table th {
+  background-color: #2a333b;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+table td {
+  background-color: #222831;
+  text-align: center;
+}
+
+table tr:nth-child(even) td {
+  background-color: #2f3c45;
+}
+
+table tr:hover {
+  background-color: #4e5d6b;
+  transition: background-color 0.3s ease;
+}
+
+table tr:nth-child(odd):hover {
+  background-color: #3c4e5b;
+}
+
+table td,
+table th {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  font-weight: bold;
+}
+
+.quiz-stats p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.quiz-stats {
+  background-color: #222831;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.1),
+    0px 0px 15px rgba(0, 0, 255, 0.1);
+}
+
+.dashboard-container h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #00adb5;
+  /* text-transform: uppercase; */
+}

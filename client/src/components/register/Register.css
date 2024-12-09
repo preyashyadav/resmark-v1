@@ -1,0 +1,85 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+}
+
+.register-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #50c7ff;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  background-color: #0f3460;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.register-input {
+  padding: 10px;
+  border: 2px solid #41c6ff;
+  border-radius: 5px;
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+  font-size: 1rem;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #00c6ff;
+}
+
+.register-button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-button:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+.register-message {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.register-message.success {
+  color: #4caf50;
+}
+
+.register-message.error {
+  color: #ff5252;
+}
+
+.register-links {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #00c6ff;
+}
